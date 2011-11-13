@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84469B9C146D6BD500B76D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84469B9B146D6BD500B76D2A /* UIKit.framework */; };
+		84469B9E146D6BD500B76D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84469B9D146D6BD500B76D2A /* Foundation.framework */; };
+		84469BA0146D6BD500B76D2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84469B9F146D6BD500B76D2A /* CoreGraphics.framework */; };
+		84469BA6146D6BD500B76D2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84469BA4146D6BD500B76D2A /* InfoPlist.strings */; };
+		84469BA8146D6BD500B76D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84469BA7146D6BD500B76D2A /* main.m */; };
+		84469BAC146D6BD500B76D2A /* GixenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84469BAB146D6BD500B76D2A /* GixenAppDelegate.m */; };
+		84469BAF146D6BD500B76D2A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84469BAD146D6BD500B76D2A /* MainWindow.xib */; };
+		84469BB2146D6BD500B76D2A /* GixenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84469BB1146D6BD500B76D2A /* GixenViewController.m */; };
+		84469BB5146D6BD600B76D2A /* GixenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84469BB3146D6BD600B76D2A /* GixenViewController.xib */; };
+		84469BF6146DA89200B76D2A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84469BF1146DA89200B76D2A /* FirstViewController.m */; };
+		84469BF7146DA89200B76D2A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84469BF3146DA89200B76D2A /* SecondViewController.m */; };
+		84469BF8146DA89200B76D2A /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84469BF4146DA89200B76D2A /* FirstView.xib */; };
+		84469BF9146DA89200B76D2A /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84469BF5146DA89200B76D2A /* SecondView.xib */; };
+		84469BFF146DA97A00B76D2A /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84469BFD146DA97A00B76D2A /* TabBar.m */; };
+		84469C00146DA97A00B76D2A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84469BFE146DA97A00B76D2A /* TabBar.xib */; };
+		84469C3E146DB29600B76D2A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84469C3D146DB29600B76D2A /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84469B97146D6BD500B76D2A /* Gixen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gixen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84469B9B146D6BD500B76D2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84469B9D146D6BD500B76D2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84469B9F146D6BD500B76D2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84469BA3146D6BD500B76D2A /* Gixen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gixen-Info.plist"; sourceTree = "<group>"; };
+		84469BA5146D6BD500B76D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84469BA7146D6BD500B76D2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84469BA9146D6BD500B76D2A /* Gixen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gixen-Prefix.pch"; sourceTree = "<group>"; };
+		84469BAA146D6BD500B76D2A /* GixenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GixenAppDelegate.h; sourceTree = "<group>"; };
+		84469BAB146D6BD500B76D2A /* GixenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GixenAppDelegate.m; sourceTree = "<group>"; };
+		84469BAE146D6BD500B76D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84469BB0146D6BD500B76D2A /* GixenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GixenViewController.h; sourceTree = "<group>"; };
+		84469BB1146D6BD500B76D2A /* GixenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GixenViewController.m; sourceTree = "<group>"; };
+		84469BB4146D6BD600B76D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GixenViewController.xib; sourceTree = "<group>"; };
+		84469BF0146DA89200B76D2A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84469BF1146DA89200B76D2A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84469BF2146DA89200B76D2A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84469BF3146DA89200B76D2A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84469BF4146DA89200B76D2A /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		84469BF5146DA89200B76D2A /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		84469BFC146DA97A00B76D2A /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBar.h; path = ../TabBar.h; sourceTree = "<group>"; };
+		84469BFD146DA97A00B76D2A /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBar.m; path = ../TabBar.m; sourceTree = "<group>"; };
+		84469BFE146DA97A00B76D2A /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBar.xib; path = ../TabBar.xib; sourceTree = "<group>"; };
+		84469C3D146DB29600B76D2A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreData.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84469B94146D6BD500B76D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84469B9C146D6BD500B76D2A /* UIKit.framework in Frameworks */,
+				84469B9E146D6BD500B76D2A /* Foundation.framework in Frameworks */,
+				84469BA0146D6BD500B76D2A /* CoreGraphics.framework in Frameworks */,
+				84469C3E146DB29600B76D2A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84469B8C146D6BD500B76D2A = {
+			isa = PBXGroup;
+			children = (
+				84469BA1146D6BD500B76D2A /* Gixen */,
+				84469B9A146D6BD500B76D2A /* Frameworks */,
+				84469B98146D6BD500B76D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84469B98146D6BD500B76D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84469B97146D6BD500B76D2A /* Gixen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84469B9A146D6BD500B76D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84469C3D146DB29600B76D2A /* CoreData.framework */,
+				84469B9B146D6BD500B76D2A /* UIKit.framework */,
+				84469B9D146D6BD500B76D2A /* Foundation.framework */,
+				84469B9F146D6BD500B76D2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84469BA1146D6BD500B76D2A /* Gixen */ = {
+			isa = PBXGroup;
+			children = (
+				84469BFC146DA97A00B76D2A /* TabBar.h */,
+				84469BFD146DA97A00B76D2A /* TabBar.m */,
+				84469BFE146DA97A00B76D2A /* TabBar.xib */,
+				84469BAA146D6BD500B76D2A /* GixenAppDelegate.h */,
+				84469BAB146D6BD500B76D2A /* GixenAppDelegate.m */,
+				84469BAD146D6BD500B76D2A /* MainWindow.xib */,
+				84469BB0146D6BD500B76D2A /* GixenViewController.h */,
+				84469BB1146D6BD500B76D2A /* GixenViewController.m */,
+				84469BB3146D6BD600B76D2A /* GixenViewController.xib */,
+				84469BF0146DA89200B76D2A /* FirstViewController.h */,
+				84469BF1146DA89200B76D2A /* FirstViewController.m */,
+				84469BF2146DA89200B76D2A /* SecondViewController.h */,
+				84469BF3146DA89200B76D2A /* SecondViewController.m */,
+				84469BF4146DA89200B76D2A /* FirstView.xib */,
+				84469BF5146DA89200B76D2A /* SecondView.xib */,
+				84469BA2146D6BD500B76D2A /* Supporting Files */,
+			);
+			path = Gixen;
+			sourceTree = "<group>";
+		};
+		84469BA2146D6BD500B76D2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84469BA3146D6BD500B76D2A /* Gixen-Info.plist */,
+				84469BA4146D6BD500B76D2A /* InfoPlist.strings */,
+				84469BA7146D6BD500B76D2A /* main.m */,
+				84469BA9146D6BD500B76D2A /* Gixen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84469B96146D6BD500B76D2A /* Gixen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84469BB8146D6BD600B76D2A /* Build configuration list for PBXNativeTarget "Gixen" */;
+			buildPhases = (
+				84469B93146D6BD500B76D2A /* Sources */,
+				84469B94146D6BD500B76D2A /* Frameworks */,
+				84469B95146D6BD500B76D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gixen;
+			productName = Gixen;
+			productReference = 84469B97146D6BD500B76D2A /* Gixen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84469B8E146D6BD500B76D2A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84469B91146D6BD500B76D2A /* Build configuration list for PBXProject "Gixen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84469B8C146D6BD500B76D2A;
+			productRefGroup = 84469B98146D6BD500B76D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84469B96146D6BD500B76D2A /* Gixen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84469B95146D6BD500B76D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84469BA6146D6BD500B76D2A /* InfoPlist.strings in Resources */,
+				84469BAF146D6BD500B76D2A /* MainWindow.xib in Resources */,
+				84469BB5146D6BD600B76D2A /* GixenViewController.xib in Resources */,
+				84469BF8146DA89200B76D2A /* FirstView.xib in Resources */,
+				84469BF9146DA89200B76D2A /* SecondView.xib in Resources */,
+				84469C00146DA97A00B76D2A /* TabBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84469B93146D6BD500B76D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84469BA8146D6BD500B76D2A /* main.m in Sources */,
+				84469BAC146D6BD500B76D2A /* GixenAppDelegate.m in Sources */,
+				84469BB2146D6BD500B76D2A /* GixenViewController.m in Sources */,
+				84469BF6146DA89200B76D2A /* FirstViewController.m in Sources */,
+				84469BF7146DA89200B76D2A /* SecondViewController.m in Sources */,
+				84469BFF146DA97A00B76D2A /* TabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84469BA4146D6BD500B76D2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84469BA5146D6BD500B76D2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84469BAD146D6BD500B76D2A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84469BAE146D6BD500B76D2A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84469BB3146D6BD600B76D2A /* GixenViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84469BB4146D6BD600B76D2A /* en */,
+			);
+			name = GixenViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84469BB6146D6BD600B76D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84469BB7146D6BD600B76D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84469BB9146D6BD600B76D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gixen/Gixen-Prefix.pch";
+				INFOPLIST_FILE = "Gixen/Gixen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84469BBA146D6BD600B76D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gixen/Gixen-Prefix.pch";
+				INFOPLIST_FILE = "Gixen/Gixen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84469B91146D6BD500B76D2A /* Build configuration list for PBXProject "Gixen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84469BB6146D6BD600B76D2A /* Debug */,
+				84469BB7146D6BD600B76D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84469BB8146D6BD600B76D2A /* Build configuration list for PBXNativeTarget "Gixen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84469BB9146D6BD600B76D2A /* Debug */,
+				84469BBA146D6BD600B76D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84469B8E146D6BD500B76D2A /* Project object */;
+}
